@@ -43,7 +43,7 @@ cursos:pointer;
   text-align:center;
 }
 
-pre.prettyprint input, #vis {
+pre.prettyprint, #vis {
   box-sizing: border-box;
   border:10px solid white;
   height:400px;

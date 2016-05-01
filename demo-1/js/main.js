@@ -68,7 +68,7 @@ $(function() {
  	 });
 
 	 // Show the json object
-	 $('#nodes').val('// Elements to be visualized \n' + JSON.stringify(data_copy.nodes, null, 2) + ';');
+	 $('#nodes').text('// Elements to be visualized \n' + JSON.stringify(data_copy.nodes, null, 2) + ';');
 	 $('#links').text('// Relationships visualized \n' +JSON.stringify(data_copy.links, null, 2) + ';');
 	 prettyPrint()
 

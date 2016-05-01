@@ -11,11 +11,13 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script src="http://d3js.org/d3.v3.min.js"></script>
 		<script src="js/prettify.js"></script>
+		<script src="lib/codemirror/codemirror.js"></script>
 
 		<!-- Custom CSS -->
 
 		<link rel="stylesheet" href="css/prettify.css"/>
 		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" href="lib/codemirror/codemirror.css"/>
 		<!-- your script file -->
 		<script src="js/main.js"></script>
 
@@ -29,9 +31,7 @@
 			<h3 class="col-md-4">Graph</h3>
 		</div>
 		<div class="row">
-			<pre class="col-md-4 prettyprint lang-js">
-					<input id="nodes"></input>
-			</pre>
+			<pre id="nodes" class="col-md-4 prettyprint lang-js"></pre>
 			<pre id="links" class="col-md-4 prettyprint lang-js"></pre>
 			<div class="col-md-4" id="vis"></div>
 		</div>

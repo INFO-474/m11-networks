@@ -12,6 +12,7 @@
 		<script src="http://d3js.org/d3.v3.min.js"></script>
 		<script src="js/prettify.js"></script>
 		<script src="lib/codemirror/codemirror.js"></script>
+		<script src="lib/codemirror/mode-javascript.js"></script>
 
 		<!-- Custom CSS -->
 
@@ -24,16 +25,20 @@
 	</head>
 	<body class="container">
 		<h1>Welcome to Module 11 Demo 1</h1>
-		<p>This demo shows a simple network graph and it's corresponding dataset.</p>
+		<p>This demo shows a simple network graph and it's corresponding dataset. <strong>Edit the <code>node</code> and <code>link</code></strong> sections to see how the change the graph.</p>
 		<div class="row">
-			<h3 class="col-md-4">Nodes</h3>
-			<h3 class="col-md-4">Links</h3>
-			<h3 class="col-md-4">Graph</h3>
+			<h3 class="col-xs-4">Nodes</h3>
+			<h3 class="col-xs-4">Links</h3>
+			<h3 class="col-xs-4">Graph</h3>
 		</div>
 		<div class="row">
-			<pre id="nodes" class="col-md-4 prettyprint lang-js"></pre>
-			<pre id="links" class="col-md-4 prettyprint lang-js"></pre>
-			<div class="col-md-4" id="vis"></div>
+			<div id="node-code" class="col-xs-4 code-editor"></div>
+			<div id="link-code" class="col-xs-4 code-editor"></div>
+			<div class="col-xs-4" id="vis"></div>
+		</div>
+		<div class="row">
+			<p id="node-warning" class="col-xs-4 alert alert-danger">Invalid JSON</h3>
+			<p id="link-warning" class="col-xs-4 alert alert-danger">Invalid JSON</h3>
 		</div>
 	</body>
 </html>

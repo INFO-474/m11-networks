@@ -39,19 +39,27 @@ cursos:pointer;
   fill:#555;
 }
 
+.node {
+  cursor:pointer;
+}
+
 .row h3 {
   text-align:center;
 }
 
-pre.prettyprint, #vis {
-  box-sizing: border-box;
-  border:10px solid white;
-  height:400px;
+.code-editor, #vis {
+  height:300px;
+}
+
+#node-code, #vis {
+  border-left:1px solid #d3d3d3 !important;
+  border-right:1px solid #d3d3d3 !important;
 }
 
 text {
   font-size:15px;
 }
-#vis {
-  background-color:#f5f5f5;
+
+#link-warning, #node-warning {
+  opacity:0;
 }

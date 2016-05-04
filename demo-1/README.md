@@ -1,7 +1,7 @@
-## Exercise 1: Getter / Setter Methods
+## Demo 1: Data Structures
 
-The purpose of this exercise is to practice writing getter/setter methods on an object (which will be the same for a function-object later in the module). Unlike other exercises, this exercise will be all in JavaScript / in the console (i.e., you will not be interacting with the DOM). As usual, fork and clone this repository, then follow the instructions in the `index.html` and `main.js` files.
+The demo provides an interactive environment for editing the `links` and `nodes` in a force-directed layout. Once you fork/clone this repository and start running a local server, you'll have a site in which you can edit the nodes and links that looks like this:
 
-The following resources may be helpful:
+![screenshot of data editing layout](imgs/complete.png)
 
-- [Method Chaining](https://en.wikipedia.org/wiki/Method_chaining) _(wiki)_
+Note, the attempt a "validating" JSON is really just a quick attempt to use the JSON object in the graph and _**is not**_ a robust test.
